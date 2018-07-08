@@ -2,18 +2,18 @@
 ## Cleaning and Getting Clean Data Code Book
 
 
-## Introduction <a name="Introduction"></a>
+### Introduction 
 
 This code book describes the variables, the data, and all the transformations performed to clean up the data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-## Data
+### Data
 
 The `tidy.txt` data file is a text file, containing space-separated values of the average of each variable for each activity and each subject. The first row of the data file is the descriptive activity names of the data set. 
 
-##Variables
+### Variables
 Each row contains sujbect id, activity, 79 averaged signal measurements.
 
-##Identifiers
+### Identifiers
 Subject
 - Subject identifier, integer, ranges from 1 to 30
 
@@ -35,7 +35,7 @@ The measurements are classigied in two domains:
 
 __Time-Domain Signals__
 
-Average time-domain body acceleration in the X,Y,Z directions.
+###### Average time-domain body acceleration in the X,Y,Z directions.
 
 - timeDomainBodyAccelerometerMeanX
 - timeDomainBodyAccelerometerMeanY
