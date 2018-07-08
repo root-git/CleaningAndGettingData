@@ -37,7 +37,7 @@ The measurements are classigied in two domains:
 
 __Time-Domain Signals__
 
-###### __Average time-domain body acceleration in the X,Y, Z directions__
+__Average time-domain body acceleration in the X,Y, Z directions__
 
 - timeDomainBodyAccelerometerMeanX
 - timeDomainBodyAccelerometerMeanY
