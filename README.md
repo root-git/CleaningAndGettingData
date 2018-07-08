@@ -6,13 +6,17 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-This repository contains the following files:
-- README.md, this file, which provides an overview of the data set and how it was created.
-- tidy.txt, which contains the final data set after running run_analysis.R script.
-CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
-run_analysis.R, the R script that was used to create the data set.
+### Files
 
-The run_analysis.R does the following.
+This repository contains the following files:
+- README.md: provides an overview of the data set and how it was created.
+- tidy.txt: the final data set after running run_analysis.R script.
+- CodeBook.md: describes the contents of the data set (data, variables and transformations used to generate the data).
+- run_analysis.R: R script that was used to create the data set.
+
+### R Script
+
+The run_analysis.R does the following:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
