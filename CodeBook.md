@@ -10,14 +10,14 @@ This code book describes the variables, the data, and all the transformations pe
 
 The `tidy.txt` data file is a text file, containing space-separated values of the average of each variable for each activity and each subject. The first row of the data file is the descriptive activity names of the data set. 
 
-### Variables
+### Data File Format
 Each row contains sujbect id, activity, 79 averaged signal measurements.
 
 ### Identifiers
-Subject
+__Subject__
 - Subject identifier, integer, ranges from 1 to 30
 
-Activity
+__Activity__
 
 6 types of activity:
 - WALKING:  subject walking
@@ -27,15 +27,17 @@ Activity
 - STANDING: subject standing
 - LAYING: subject laying
 
-Average of Measurements
+__Average of Measurements__
+
 All measurements are floating-point values, normalised and bounded within [-1,1].
+
 The measurements are classigied in two domains:
 * Time-domain signals-captured from accelerometer and gyroscope raw signals
 * Frequency-domain signals-captured from the application of a Fast Fourier Transform(FFT) to some of the time-domain signals
 
 __Time-Domain Signals__
 
-###### Average time-domain body acceleration in the X,Y,Z directions.
+###### __Average time-domain body acceleration in the X,Y, Z directions__
 
 - timeDomainBodyAccelerometerMeanX
 - timeDomainBodyAccelerometerMeanY
