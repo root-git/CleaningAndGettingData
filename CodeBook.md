@@ -35,7 +35,7 @@ The measurements are classigied in two domains:
 * Time-domain signals-captured from accelerometer and gyroscope raw signals
 * Frequency-domain signals-captured from the application of a Fast Fourier Transform(FFT) to some of the time-domain signals
 
-__Time-Domain Signals__
+1. __Time-Domain Signals__
 
 __Average time-domain body acceleration in the X,Y, Z directions__
 
@@ -43,13 +43,13 @@ __Average time-domain body acceleration in the X,Y, Z directions__
 - timeDomainBodyAccelerometerMeanY
 - timeDomainBodyAccelerometerMeanZ
 
-Standard deviation of the time-domain body acceleration in the X, Y and Z directions
+__Standard deviation of the time-domain body acceleration in the X, Y and Z directions__
 
 - timeDomainBodyAccelerometerStandardDeviationX
 - timeDomainBodyAccelerometerStandardDeviationY
 - timeDomainBodyAccelerometerStandardDeviationZ
 
-Average time-domain gravity acceleration in the X, Y and Z directions
+__Average time-domain gravity acceleration in the X, Y and Z directions__
 
 - timeDomainGravityAccelerometerMeanX
 - timeDomainGravityAccelerometerMeanY
